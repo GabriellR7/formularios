@@ -1,0 +1,58 @@
+body{
+    background-color:black;
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-image: url(./sistema.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+.categoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categoria .box img{
+    height: 250px;
+}
+.categoria label{
+    display: block;
+    gap: 30px;
+}
+.categoria .data{
+    display: block;
+}
+.categoria3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.categoria3 label{
+    display: block;
+    margin-top: 30px;
+}
+.categoria3 .data{
+    display: block;
+    margin-top: 5px;
+}
+.box3 h1{
+    text-decoration: underline;
+}
+.categoria4{
+    margin-top: 30px;
+}
+.box4 button{
+    background-color:blue;
+    color: white;
+    padding: 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./sistema.jpg);
+}
+header{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.categoria{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15vw;
+    border: 3px solid white;
+    width: 100%;
+    background-color: black;
+    padding-top: 25px;
+}
+.categoria img{
+ width: 100px;
+ height: 100px; 
+ padding-left: 50px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5vw;
+}
+.box button{
+    border:solid 1px white;
+    background-color: black;
+    padding: 15px;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.login button{
+    background-color: red;
+    padding: 15px;
+    border: solid 1px white;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5vw;
+    margin-right: 5vw;
+}
+.main{
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.categoria2 img{
+    display: block;
+    max-width: 100%;
+}
+.categoria2{
+    display: block;
+    flex-wrap: wrap;
+    max-width: 800px;
+    border: 10px solid white;
+    border-radius: 15px;
+}
+.categoria2 div{
+    flex: 1 1 200px;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.categoria2 {
+    display: flex;
+    margin-left: 530px;
+}
+.categoria2 .robo img{
+    width: auto;
+    height: 500px;
+}
+.categoria2 p{
+    font-size:70px;
+
+}
+
+.categoria3{
+    margin-top: 100px;
+    display: flex;
+}
+.robo3{
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+.categoria3 img{
+    width: auto;
+    height: 300px;
+}
+.robo2{
+    background-color:white;
+    border: 10px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.categoria3{
+    display: flex;
+}
+.robo2 h1{
+    color: black;
+}
+.robo3 p{
+    color: black;
+    margin-top: 100px;
+}
+.robo3 p{
+    width: 500px;
+}
+.categoria3{
+    justify-content: center;
+}
+.categoria4{
+    display: flex;
+    flex-direction: column;
+    border: solid 10px black;
+    margin-top: 100px;
+    background-color: white;
+    width: 800px;
+    margin-left: 540px;
+}
+.robo4 h1{
+    color: black;
+}
+.robo5 img{
+    width: 300px;
+    height: auto;
+}
+.robo5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.robo5 p{
+    width: 500px;
+    align-items: center;
+}
+.categoria5{
+    border: solid 10px black;
+    background-color: white;
+    margin-top: 50px;
+}
+.robo6 p{
+    color: black;
+    width: 800px;
+    margin-left: 600px;
+}
+.robo6 h1{
+    color: black;
+}
